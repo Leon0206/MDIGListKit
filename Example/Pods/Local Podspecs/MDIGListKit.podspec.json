@@ -1,0 +1,22 @@
+{
+  "name": "MDIGListKit",
+  "version": "0.1.0",
+  "summary": "A short description of MDIGListKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lizitao/MDIGListKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lizitao": "63437613@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lizitao/MDIGListKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MDIGListKit/Classes/**/*"
+}
