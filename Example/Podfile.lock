@@ -1,27 +1,27 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
   - MDIGListKit (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
+  - IGListKit
   - MDIGListKit (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - FBSnapshotTestCase
+    - IGListKit
 
 EXTERNAL SOURCES:
   MDIGListKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MDIGListKit: 9ba3d11bf54aa764fbbb1f126dd89ced5fce4030
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  MDIGListKit: 585d9677987de55e37615ae755f083ff44b272b1
 
-PODFILE CHECKSUM: 96d7ba01018721750b9eb7bb883456c2a962a04d
+PODFILE CHECKSUM: c03306ee9f4d9857c7b570e3c0a4008f8eafb4fa
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

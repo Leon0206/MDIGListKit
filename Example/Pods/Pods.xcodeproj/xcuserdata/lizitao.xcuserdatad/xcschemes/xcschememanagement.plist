@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FBSnapshotTestCase.xcscheme</key>
+		<key>IGListKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -15,11 +15,6 @@
 			<false/>
 		</dict>
 		<key>Pods-MDIGListKit_Example.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-MDIGListKit_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

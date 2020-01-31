@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE7B854B5AE3FAA4C50E6531367D37F2"
-               BuildableName = "MDIGListKit.framework"
+               BlueprintIdentifier = "203306C7FD9262AC0C2CC3A91607DAE5"
+               BuildableName = "libMDIGListKit.a"
                BlueprintName = "MDIGListKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
