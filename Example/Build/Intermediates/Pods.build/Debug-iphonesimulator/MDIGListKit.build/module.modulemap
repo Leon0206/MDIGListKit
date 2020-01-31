@@ -1,0 +1,6 @@
+framework module MDIGListKit {
+  umbrella header "MDIGListKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
