@@ -23,6 +23,16 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7E3F540DC3C63F548388B388 /* libPods-MDIGListKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7AB54108ABC92DFBF8820D /* libPods-MDIGListKit_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D8B9B19C23E45FC8007B1E05 /* ListSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B19A23E45FC8007B1E05 /* ListSectionModel.m */; };
+		D8B9B1A123E460C3007B1E05 /* XMYIGListSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B19D23E460C2007B1E05 /* XMYIGListSectionController.m */; };
+		D8B9B1A223E460C3007B1E05 /* XMYIGListImageSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B19F23E460C3007B1E05 /* XMYIGListImageSectionController.m */; };
+		D8B9B1AF23E46125007B1E05 /* XMYImageCell_ rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B1A423E46125007B1E05 /* XMYImageCell_ rectangle.m */; };
+		D8B9B1B023E46125007B1E05 /* XMYImageCell_ square.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B1A523E46125007B1E05 /* XMYImageCell_ square.m */; };
+		D8B9B1B123E46125007B1E05 /* LWorkTableCommonHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B9B1A923E46125007B1E05 /* LWorkTableCommonHeader.xib */; };
+		D8B9B1B223E46125007B1E05 /* XMYImageCell_ rectangle.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B9B1AA23E46125007B1E05 /* XMYImageCell_ rectangle.xib */; };
+		D8B9B1B323E46125007B1E05 /* XMYImageCell_ square.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B9B1AB23E46125007B1E05 /* XMYImageCell_ square.xib */; };
+		D8B9B1B423E46125007B1E05 /* LWorkTableButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B1AC23E46125007B1E05 /* LWorkTableButtonCell.m */; };
+		D8B9B1B523E46125007B1E05 /* LWorkTableCommonHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B9B1AD23E46125007B1E05 /* LWorkTableCommonHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +69,28 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C3550D88434C5927EFA72AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7C3550D88434C5927EFA72AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9875CFBE3B26C2756D1BEC97 /* Pods-MDIGListKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDIGListKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDIGListKit_Example/Pods-MDIGListKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0CD3896BBBC431158B9043F /* MDIGListKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MDIGListKit.podspec; path = ../MDIGListKit.podspec; sourceTree = "<group>"; };
-		EE75F8B1EE2C2609F60DF151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D0CD3896BBBC431158B9043F /* MDIGListKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MDIGListKit.podspec; path = ../MDIGListKit.podspec; sourceTree = "<group>"; };
+		D8B9B19A23E45FC8007B1E05 /* ListSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSectionModel.m; sourceTree = "<group>"; };
+		D8B9B19B23E45FC8007B1E05 /* ListSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSectionModel.h; sourceTree = "<group>"; };
+		D8B9B19D23E460C2007B1E05 /* XMYIGListSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMYIGListSectionController.m; sourceTree = "<group>"; };
+		D8B9B19E23E460C3007B1E05 /* XMYIGListImageSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMYIGListImageSectionController.h; sourceTree = "<group>"; };
+		D8B9B19F23E460C3007B1E05 /* XMYIGListImageSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMYIGListImageSectionController.m; sourceTree = "<group>"; };
+		D8B9B1A023E460C3007B1E05 /* XMYIGListSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMYIGListSectionController.h; sourceTree = "<group>"; };
+		D8B9B1A423E46125007B1E05 /* XMYImageCell_ rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMYImageCell_ rectangle.m"; sourceTree = "<group>"; };
+		D8B9B1A523E46125007B1E05 /* XMYImageCell_ square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XMYImageCell_ square.m"; sourceTree = "<group>"; };
+		D8B9B1A623E46125007B1E05 /* LWorkTableCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWorkTableCommonHeader.h; sourceTree = "<group>"; };
+		D8B9B1A723E46125007B1E05 /* LWorkTableButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWorkTableButtonCell.h; sourceTree = "<group>"; };
+		D8B9B1A823E46125007B1E05 /* XMYImageCell_ rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XMYImageCell_ rectangle.h"; sourceTree = "<group>"; };
+		D8B9B1A923E46125007B1E05 /* LWorkTableCommonHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWorkTableCommonHeader.xib; sourceTree = "<group>"; };
+		D8B9B1AA23E46125007B1E05 /* XMYImageCell_ rectangle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "XMYImageCell_ rectangle.xib"; sourceTree = "<group>"; };
+		D8B9B1AB23E46125007B1E05 /* XMYImageCell_ square.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "XMYImageCell_ square.xib"; sourceTree = "<group>"; };
+		D8B9B1AC23E46125007B1E05 /* LWorkTableButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWorkTableButtonCell.m; sourceTree = "<group>"; };
+		D8B9B1AD23E46125007B1E05 /* LWorkTableCommonHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWorkTableCommonHeader.m; sourceTree = "<group>"; };
+		D8B9B1AE23E46125007B1E05 /* XMYImageCell_ square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XMYImageCell_ square.h"; sourceTree = "<group>"; };
+		EE75F8B1EE2C2609F60DF151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +164,7 @@
 		6003F593195388D20070C39A /* Example for MDIGListKit */ = {
 			isa = PBXGroup;
 			children = (
+				D8B9B19923E45FC8007B1E05 /* MD_IGList */,
 				6003F59C195388D20070C39A /* MDAppDelegate.h */,
 				6003F59D195388D20070C39A /* MDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -188,6 +216,38 @@
 				7C3550D88434C5927EFA72AC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D8B9B19923E45FC8007B1E05 /* MD_IGList */ = {
+			isa = PBXGroup;
+			children = (
+				D8B9B1A323E46125007B1E05 /* Views */,
+				D8B9B19E23E460C3007B1E05 /* XMYIGListImageSectionController.h */,
+				D8B9B19F23E460C3007B1E05 /* XMYIGListImageSectionController.m */,
+				D8B9B1A023E460C3007B1E05 /* XMYIGListSectionController.h */,
+				D8B9B19D23E460C2007B1E05 /* XMYIGListSectionController.m */,
+				D8B9B19A23E45FC8007B1E05 /* ListSectionModel.m */,
+				D8B9B19B23E45FC8007B1E05 /* ListSectionModel.h */,
+			);
+			path = MD_IGList;
+			sourceTree = "<group>";
+		};
+		D8B9B1A323E46125007B1E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8B9B1A423E46125007B1E05 /* XMYImageCell_ rectangle.m */,
+				D8B9B1A523E46125007B1E05 /* XMYImageCell_ square.m */,
+				D8B9B1A623E46125007B1E05 /* LWorkTableCommonHeader.h */,
+				D8B9B1A723E46125007B1E05 /* LWorkTableButtonCell.h */,
+				D8B9B1A823E46125007B1E05 /* XMYImageCell_ rectangle.h */,
+				D8B9B1A923E46125007B1E05 /* LWorkTableCommonHeader.xib */,
+				D8B9B1AA23E46125007B1E05 /* XMYImageCell_ rectangle.xib */,
+				D8B9B1AB23E46125007B1E05 /* XMYImageCell_ square.xib */,
+				D8B9B1AC23E46125007B1E05 /* LWorkTableButtonCell.m */,
+				D8B9B1AD23E46125007B1E05 /* LWorkTableCommonHeader.m */,
+				D8B9B1AE23E46125007B1E05 /* XMYImageCell_ square.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +309,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,6 +331,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D8B9B1B123E46125007B1E05 /* LWorkTableCommonHeader.xib in Resources */,
+				D8B9B1B223E46125007B1E05 /* XMYImageCell_ rectangle.xib in Resources */,
+				D8B9B1B323E46125007B1E05 /* XMYImageCell_ square.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -315,9 +379,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B9B1B523E46125007B1E05 /* LWorkTableCommonHeader.m in Sources */,
 				6003F59E195388D20070C39A /* MDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MDViewController.m in Sources */,
+				D8B9B1B023E46125007B1E05 /* XMYImageCell_ square.m in Sources */,
+				D8B9B1B423E46125007B1E05 /* LWorkTableButtonCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D8B9B1A123E460C3007B1E05 /* XMYIGListSectionController.m in Sources */,
+				D8B9B1AF23E46125007B1E05 /* XMYImageCell_ rectangle.m in Sources */,
+				D8B9B1A223E460C3007B1E05 /* XMYIGListImageSectionController.m in Sources */,
+				D8B9B19C23E45FC8007B1E05 /* ListSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +519,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDIGListKit/MDIGListKit-Prefix.pch";
 				INFOPLIST_FILE = "MDIGListKit/MDIGListKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,6 +536,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDIGListKit/MDIGListKit-Prefix.pch";
 				INFOPLIST_FILE = "MDIGListKit/MDIGListKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
